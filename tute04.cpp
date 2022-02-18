@@ -27,3 +27,10 @@ int main() {
   std::cout << std::endl;
   return 0;
 }
+long nCr(int n, int r)
+{
+  long answer;
+  answer = n!/ r!(n − r)!;
+
+  return answer;
+}
